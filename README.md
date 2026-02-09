@@ -22,7 +22,26 @@ Task Manger API written using only Core php and OOP concepts
 - [x] dependencies added 
   - [x] php version ^8.3
   - [x] phpunit 12 
+- [x] basic/defualt response format added  
+
+## Default or minimum Response Format 
+
+```php
+$default_response = [
+    "data" => null,    
+    "status" => ['code'=> 200, 'message'=> 'success'],
+    "errors" =>  [
+        "status"=> "false",
+        "code"=> "000",
+        "message"=> "No error"
+    ],
+    "meta" => ["api_version" => "1.0.0"],
+    "links" => false,
+];
+```
+
 
 ## TODO 
 
 - [ ] add version control for api like /v1/  
+- [ ] 
