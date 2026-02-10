@@ -71,7 +71,7 @@ Task Manager API a lightweight, object-oriented PHP API for managing tasks, buil
 - [x] Added default in case of home, index, '', '/'
 - [x] upated default message 'links' to '_links'
 
-## TODO 
+## 🔜 TODO 
 
 - [ ] add version control for api like /v1/  
 
